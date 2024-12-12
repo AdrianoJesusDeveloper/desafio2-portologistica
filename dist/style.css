@@ -142,8 +142,7 @@ header a:hover {
   line-height: 35.57px;
   text-align: left;
   text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
 }
 
 h1 {
@@ -159,8 +158,7 @@ h1 {
   line-height: 42.19px;
   text-align: left;
   text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
 }
 
 p {
@@ -206,11 +204,10 @@ p {
   line-height: 35.57px;
   text-align: center;
   text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
   height: 20vh;
   top: 10vh;
-  color: rgb(0, 23, 233);
+  color: #0017e9;
 }
 
 .container-cards h4 {
@@ -289,7 +286,8 @@ p {
 }
 
 .unidades figure {
-  flex: 1 1 calc(50% - 15px); /* Tamanho de cada unidade */
+  flex: 1 1 calc(50% - 15px);
+  /* Tamanho de cada unidade */
   text-align: center;
 }
 
@@ -329,4 +327,4 @@ p {
 
 .fale-conosco form button:hover {
   background-color: darkblue;
-}/*# sourceMappingURL=style.css.map */
+}
