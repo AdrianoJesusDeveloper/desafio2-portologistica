@@ -157,8 +157,8 @@ h1{
 
 }
 p {
+  display: flex;
   font-family: 'Oswald' ;
-  justify-content:space-evenly;
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -260,39 +260,33 @@ p {
   color: #000000;
   padding: 0 10px 20px;
 }
-
-
 .atendimento {
   display: grid;
   width: 100%;
+  padding: 7%;
   
-  
-
-}
+ 
 
 .contato {
   display: flex;
-  width: 100%;
-  
-  
-  
+  width: 100%;  
 }
 
 .atendimento, .fale-conosco {
-  width: 100%;
-  text-align: center;
+  width: 100%;  
+  padding: 2.5%;
 }
 
 .atendimento h2, .fale-conosco h2 {
   color: blue;
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 1.5em;  
 }
+
 
 .unidades {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
 
 }
 
@@ -337,4 +331,23 @@ p {
 
 .fale-conosco form button:hover {
   background-color: darkblue;
+}
+
+.footer{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color: rgba(216, 216, 216, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
 }

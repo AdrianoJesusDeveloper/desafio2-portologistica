@@ -162,8 +162,8 @@ h1 {
 }
 
 p {
+  display: flex;
   font-family: "Oswald";
-  justify-content: space-evenly;
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -262,62 +262,52 @@ p {
 .atendimento {
   display: grid;
   width: 100%;
+  padding: 7%;
 }
-
-.contato {
+.atendimento .contato {
   display: flex;
   width: 100%;
 }
-
-.atendimento, .fale-conosco {
+.atendimento .atendimento, .atendimento .fale-conosco {
   width: 100%;
-  text-align: center;
+  padding: 2.5%;
 }
-
-.atendimento h2, .fale-conosco h2 {
+.atendimento .atendimento h2, .atendimento .fale-conosco h2 {
   color: blue;
   font-size: 1.5em;
-  text-align: center;
 }
-
-.unidades {
+.atendimento .unidades {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
 }
-
-.unidades figure {
+.atendimento .unidades figure {
   flex: 1 1 calc(50% - 15px);
   /* Tamanho de cada unidade */
   text-align: center;
 }
-
-.unidades img {
+.atendimento .unidades img {
   max-width: 100%;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
-.fale-conosco form {
+.atendimento .fale-conosco form {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-
-.fale-conosco form label {
+.atendimento .fale-conosco form label {
   font-weight: bold;
 }
-
-.fale-conosco form input,
-.fale-conosco form textarea {
+.atendimento .fale-conosco form input,
+.atendimento .fale-conosco form textarea {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
-.fale-conosco form button {
+.atendimento .fale-conosco form button {
   background-color: blue;
   color: white;
   padding: 10px;
@@ -325,7 +315,12 @@ p {
   border-radius: 4px;
   cursor: pointer;
 }
-
-.fale-conosco form button:hover {
+.atendimento .fale-conosco form button:hover {
   background-color: darkblue;
+}
+.atendimento .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8d8d8;
 }
